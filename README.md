@@ -90,7 +90,7 @@ EOF
   ```
 # [BURADAN](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd) Polkadotjs cüzdan indiriyoruz.
 
-[Buradan](https://www.pusulafinans.com/polkadot-cuzdan-nasil-olusturulur/) Detaylı Kurulum Rehberine ulaşabilirsiniz.
+### [Buradan](https://www.pusulafinans.com/polkadot-cuzdan-nasil-olusturulur/) Detaylı Kurulum Rehberine ulaşabilirsiniz.
 
 ### Testnete katılmak için gerekli cüzdan adresini; cüzdanımıza bu ayarları yaptıktan sonra, gelen adresi kopyalıyoruz.
 
@@ -98,7 +98,7 @@ EOF
 
   ## Farmer için farmerd isimli bir servis oluşturalım;
   
-  CUZDANADRESI kısmına ödül almak istediğiniz cüzdan adresini giriyoruz.
+  ### CUZDANADRESI kısmına ödül almak istediğiniz cüzdan adresini giriyoruz.
 
   ```
   sudo tee <<EOF >/dev/null /etc/systemd/system/farmerd.service
