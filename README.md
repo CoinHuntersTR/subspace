@@ -127,6 +127,12 @@ EOF
   ```
   sudo systemctl restart farmerd
   ```  
+## Node loglarımıza bakıyoruz.(Aşağıdaki görsel gibi logların akması gerekiyor.)
+  ```
+ journalctl -u subspaced -f -o cat
+  ```  
+
+![supspace2](https://user-images.githubusercontent.com/111747226/191376523-09d78401-83d8-46d1-9344-924344208f73.png)
   
   
   
