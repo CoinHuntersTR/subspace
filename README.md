@@ -134,6 +134,9 @@ EOF
 
 ![supspace2](https://user-images.githubusercontent.com/111747226/191376523-09d78401-83d8-46d1-9344-924344208f73.png)
   
+## Sync kontrol etmek için 
+  ### isSynincg:false çıktısı almanız lazım
+  
   
   
  
