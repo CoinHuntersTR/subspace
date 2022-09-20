@@ -92,8 +92,43 @@ EOF
 
 [Buradan](https://www.pusulafinans.com/polkadot-cuzdan-nasil-olusturulur/) Detaylı Kurulum Rehberine ulaşabilirsiniz.
 
-### Testnete katılmak için gerekli cüzdan adresini, cüzdanımızda bu ayarları yaptıktan sonra gelen adresi kopyalıyoruz.
+### Testnete katılmak için gerekli cüzdan adresini; cüzdanımıza bu ayarları yaptıktan sonra, gelen adresi kopyalıyoruz.
 
+![subspace](https://user-images.githubusercontent.com/111747226/191375431-d800f3ac-a361-4ac3-8416-518cf43cc652.png)
 
+  ## Farmer için farmerd isimli bir servis oluşturalım;
   
+  CUZDANADRESI kısmına ödül almak istediğiniz cüzdan adresini giriyoruz.
+
+  ```
+  sudo tee <<EOF >/dev/null /etc/systemd/system/farmerd.service
+[Unit]
+Description=Supsapce Node
+After=network.target
+
+[Service]
+User=$USER
+ExecStart=$(which subspaceFarmer) farm --reward-address CUZDANADRESI --plot-size 100GB
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
+EOF
+  ```
+ ## Farmer servislerini başlatalım
+  ```
+  sudo systemctl daemon-reload
+  ```
+  ```
+  sudo systemctl enable farmerd
+  ```
+  ```
+  sudo systemctl restart farmerd
+  ```  
+  
+  
+  
+ 
  
