@@ -141,8 +141,10 @@ EOF
   ```   
 ![subspace 3](https://user-images.githubusercontent.com/111747226/191377150-74d43064-261d-4bf4-bb70-8bd8b6cf298b.png)
   
- Subspace Network Linkler;
+ ## Subspace Network Linkler;
   
-### [Discord](https://discord.gg/hxYrA3VQ)  [Twitter](https://twitter.com/NetworkSubspace)  [Web](https://subspace.network/)
+### [Discord](https://discord.gg/hxYrA3VQ)
+### [Twitter](https://twitter.com/NetworkSubspace)
+### [Web](https://subspace.network/)
  
  
