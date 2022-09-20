@@ -136,7 +136,10 @@ EOF
   
 ## Sync kontrol etmek için 
   ### isSynincg:false çıktısı almanız lazım
-  
+  ```
+ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_health", "params":[]}' http://localhost:9933
+  ```   
+![subspace 3](https://user-images.githubusercontent.com/111747226/191377150-74d43064-261d-4bf4-bb70-8bd8b6cf298b.png)
   
   
  
